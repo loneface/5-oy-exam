@@ -1,0 +1,22 @@
+table tr {
+  margin-bottom: 10px;
+  padding: 20px 2px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+td button {
+  padding: 7px 10px;
+  border: 1px solid#DA002B;
+  border-radius: 8px;
+  background: transparent;
+  font-size: 16px;
+  color: #da002b;
+}
+
+td button:hover,
+td button:active {
+  color: #fff;
+  background: #da002b;
+}

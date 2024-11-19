@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/korzinka.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top__block">
+        <div class="header__top container">
+          <ul class="header__top_left-list">
+            <li class="header__top_left-list__buttons">
+              <button>0% Muddatli to'lov</button>
+              <button>Chegirmalar</button>
+              <button>Yutuqli o'yinlar</button>
+            </li>
+            <li class="header__top_left-list__sitemap">
+              <a href="#">Sayt xaritasi</a>
+            </li>
+          </ul>
+          <div class="header__top__actions">
+            <a href="tel:+998712022021" aria-label="+998712022021"
+              >+998 (71) 202 20 21</a
+            >
+            <button class="">olcha da soting</button>
+          </div>
+          <div class="header__top__lang">
+            <a href="#">Ўзб</a>
+            <a href="#">O'z</a>
+            <a href="#">Рус</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom container">
+        <a href="./index.html">
+          <img class="logo" src="./images/logo.png" alt="logo" />
+        </a>
+        <button class="header__bottom__menu-btn">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          Katalog
+        </button>
+        <div class="form-search">
+          <input
+            class="form-search__input"
+            type="text"
+            placeholder="Katalog bo'yicha qidirish"
+          />
+          <button class="form-search__btn" aria-label="Search button">
+            <img src="./images/search-icon.svg" alt="svg" />
+          </button>
+        </div>
+        <div class="header__bottom__actions">
+          <a href="#">
+            <img
+              class="header__bottom__actions-icon"
+              src="./images/1.svg"
+              alt="actions_logo"
+            />
+            <div>Taqqoslash</div>
+          </a>
+          <a href="#">
+            <img
+              class="header__bottom__actions-icon"
+              src="./images/2.svg"
+              alt="actions_logo"
+            />
+            <div>Sevimlilar</div>
+          </a>
+          <a href="/korzinka.html">
+            <img
+              class="header__bottom__actions-icon"
+              src="./images/3.svg"
+              alt="actions_logo"
+            />
+            <div>Savatcha</div>
+          </a>
+          <a href="#">
+            <img
+              class="header__bottom__actions-icon"
+              src="./images/4.svg"
+              alt="actions_logo"
+            />
+            <div>Kirish</div>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <table colspan="2" style="width: 100%">
+        <tr>
+          <td>
+            <h1 id="amountInBasket">Savatingizda X ta mahsulot bor</h1>
+            <br /><br />
+            <table id="basket" colspan="4" style="width: 90%">
+              <td style="width: 50%; text-align: center">Mahsulot nomi</td>
+              <td style="width: 10%; text-align: center">Soni</td>
+              <td style="width: 20%; text-align: center">Narxi</td>
+            </table>
+          </td>
+          <td>
+            <div id="sidesection">
+              <h1 id="basketTotal">Umumiy hisob:</h1>
+              <br /><br />
+              <button onclick="clearBasket()">Savatni tozala</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <br /><br />
+    </div>
+
+    <footer class="footer">
+      <div class="footer__top__block">
+        <div class="footer__top container">
+          <div class="footer__top__content">
+            <h2>
+              Bizning mobil ilovamiz AppGallery, App store va Google play-da
+            </h2>
+            <div class="footer__top__buttons">
+              <button style="padding: 5px 10px">
+                <img
+                  width="150"
+                  height="37"
+                  src="./images/appstore.svg"
+                  alt="store"
+                />
+              </button>
+              <button style="padding: 5px 10px">
+                <img
+                  width="150"
+                  height="37"
+                  src="./images/googleplay.svg"
+                  alt="store"
+                />
+              </button>
+              <button style="padding: 0">
+                <img
+                  width="170"
+                  height="48"
+                  src="./images/appgallery.svg"
+                  alt="store"
+                />
+              </button>
+            </div>
+          </div>
+          <img
+            width="489"
+            height="264"
+            src="./images/footer-img.png"
+            alt="footer-img"
+          />
+        </div>
+      </div>
+      <div class="footer__mid__block">
+        <div class="footer__mid container">
+          <ul class="footer__mid-first_list">
+            <li>
+              <img class="logo" src="./images/logo.png" alt="logo" />
+            </li>
+            <li>
+              <p style="padding-bottom: 10px">Qo'llab-quvvatlash raqami</p>
+              <a class="footer__mid-first_list__num" href="tel:+998712022021"
+                >+998 (71) 202 202 1</a
+              >
+            </li>
+            <li>
+              <div class="footer__mid-first_list__bottom">
+                <img
+                  width="20"
+                  height="20"
+                  src="./images/location.svg"
+                  alt="icon"
+                />
+                <p>Qozitarnov, Toshkent</p>
+              </div>
+              <div class="footer__mid-first_list__bottom">
+                <img src="./images/mail.svg" alt="icon" />
+                <a class="mail" href="#">info@olcha.uz</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="footer__mid-second_list">
+            <li>
+              <h4 style="color: #da002b; font-size: 20px">Ma'lumot</h4>
+              <a href="">Biz haqimizda</a>
+              <a href="">Bo‘sh ish o‘rinlari</a>
+              <a href="">Ommaviy oferta</a>
+              <a href=""
+                >To‘lovni qaytarish va tovarlarni <br />
+                almashtirish</a
+              >
+              <a href="">Muddatli to’lov shartlari</a>
+            </li>
+            <li>
+              <a href="">Eco-friendly</a>
+              <a href=""
+                >Shaxsiy ma‘lumotlar bilan ishlash <br />
+                bo‘yicha Siyosat</a
+              >
+              <a href="">To‘lov va yetkazib berish</a>
+              <a href="">Bonus va aksiyalar</a>
+              <a href=""
+                >Mahsulotlarni Olcha.uz da <br />
+                sotmoqchi bo’lgan sotuvchilar <br />
+                uchun oferta.</a
+              >
+            </li>
+          </ul>
+          <ul class="footer__mid-third_list">
+            <li>
+              <button>
+                <img width="80" src="./images/uzum.svg" alt="payments" />
+              </button>
+            </li>
+            <li>
+              <button>
+                <img width="80" src="./images/plum.svg" alt="payments" />
+              </button>
+            </li>
+            <li>
+              <button>
+                <img width="80" src="./images/click.svg" alt="payments" />
+              </button>
+            </li>
+            <li>
+              <button>
+                <img width="80" src="./images/payme.svg" alt="payments" />
+              </button>
+            </li>
+            <li>
+              <button>
+                <img width="46" src="./images/humo.svg" alt="payments" />
+              </button>
+            </li>
+            <li>
+              <button>
+                <img width="80" src="./images/paynet.svg" alt="payments" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom container">
+        <div class="footer__bottom__content">
+          <p>© 2017-2024. ООО "Olcha store"</p>
+          <p>Ommaviy oferta</p>
+          <p>Maxfiylik siyosati</p>
+        </div>
+        <ul class="footer__bottom__socials">
+          <li>
+            <button>
+              <img width="23" src="./images/facebook.svg" alt="icons" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img width="23" src="./images/instagram.svg" alt="icons" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img width="23" src="./images/telegram.svg" alt="icons" />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      window.onload = () => {
+        displayBasket();
+      };
+    </script>
+    <script src="./javascript/index.js"></script>
+  </body>
+</html>
